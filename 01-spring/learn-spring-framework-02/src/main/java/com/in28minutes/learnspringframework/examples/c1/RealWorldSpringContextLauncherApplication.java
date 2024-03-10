@@ -18,6 +18,8 @@ public class RealWorldSpringContextLauncherApplication {
 			
 			Arrays.stream(context.getBeanDefinitionNames())
 				.forEach(System.out::println);
+
+			system.out.println(context.getBean(
 			
 			
 		}
